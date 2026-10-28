@@ -1,0 +1,16 @@
+{
+  "name": "diagnostic-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A scored quiz with email results and lead capture, on your own accounts.",
+  "license": "MIT",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "check": "node scripts/check-config.js",
+    "token": "node scripts/make-admin-key.js",
+    "preview": "node scripts/render-samples.js",
+    "test": "node --test tests/*.test.js",
+    "security": "./scripts/security-check.sh"
+  }
+}

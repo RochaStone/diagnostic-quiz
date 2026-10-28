@@ -1,0 +1,83 @@
+{
+  "version": "1",
+  "title": "The Windowsill Quiz",
+  "intro": "A fictional sample about houseplants. Six questions, one result, sent to your inbox. Replace every word with yours.",
+  "motif": "",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How often do you check on your plants?",
+      "options": [
+        { "label": "When I remember", "points": 0 },
+        { "label": "About once a week", "points": 1 },
+        { "label": "Twice a week", "points": 2 },
+        { "label": "Every morning with my coffee", "points": 3 }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Where do most of your plants live?",
+      "options": [
+        { "label": "A dim hallway", "points": 0 },
+        { "label": "Beside a north window", "points": 1 },
+        { "label": "A bright room", "points": 2 },
+        { "label": "A sunny window with a sheer curtain", "points": 3 }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "A leaf turns yellow. What do you do first?",
+      "options": [
+        { "label": "Water it more", "points": 0 },
+        { "label": "Move it somewhere new", "points": 1 },
+        { "label": "Feel the soil", "points": 2 },
+        { "label": "Check the soil, the light and the roots", "points": 3 }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How do you decide when to water?",
+      "options": [
+        { "label": "Same day for every plant", "points": 0 },
+        { "label": "When it looks sad", "points": 1 },
+        { "label": "When the top of the soil is dry", "points": 2 },
+        { "label": "Each plant has its own rhythm and I know it", "points": 3 }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "When do you repot?",
+      "options": [
+        { "label": "I never have", "points": 0 },
+        { "label": "When it falls over", "points": 1 },
+        { "label": "When roots poke out of the bottom", "points": 2 },
+        { "label": "Every spring, with fresh soil", "points": 3 }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How do you feel about your plants right now?",
+      "options": [
+        { "label": "A little guilty", "points": 0 },
+        { "label": "Hopeful", "points": 1 },
+        { "label": "Proud", "points": 2 },
+        { "label": "Smug, in the nicest way", "points": 3 }
+      ]
+    }
+  ],
+  "bands": [
+    { "id": "tier-1", "label": "Tier 01", "min": 0, "max": 39, "title": "YOUR WORDS HERE", "body": "YOUR WORDS HERE", "next": "YOUR WORDS HERE" },
+    { "id": "tier-2", "label": "Tier 02", "min": 40, "max": 74, "title": "YOUR WORDS HERE", "body": "YOUR WORDS HERE", "next": "YOUR WORDS HERE" },
+    { "id": "tier-3", "label": "Tier 03", "min": 75, "max": 100, "title": "YOUR WORDS HERE", "body": "YOUR WORDS HERE", "next": "YOUR WORDS HERE" }
+  ],
+  "lead": {
+    "button": "Send me my result",
+    "consent_text": "YOUR WORDS HERE"
+  },
+  "email": {
+    "subject": "Your result: {band}",
+    "intro": "YOUR WORDS HERE",
+    "footer": "YOUR WORDS HERE"
+  },
+  "cta": { "label": "", "url": "" }
+}

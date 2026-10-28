@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Leads</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;900&family=Bricolage+Grotesque:wght@400;800&family=DM+Mono&family=Silkscreen&display=swap">
+<link rel="stylesheet" href="/quiz.css">
+<link rel="stylesheet" href="/admin/admin.css">
+<script src="/admin/admin.js" defer></script>
+</head>
+<body class="motif-y2k-blog">
+<main class="shell wide">
+  <div class="window">
+    <div class="bar"><span>leads.exe</span><span class="dots"><i></i><i></i><i></i></span></div>
+    <div class="pane">
+      <h1>Your leads</h1>
+      <form id="unlock" autocomplete="off">
+        <label for="token">Admin token</label>
+        <input id="token" type="password" autocomplete="current-password" maxlength="256" required>
+        <p class="note">The token stays in this tab only. Close the tab and it is gone.</p>
+        <button class="go" type="submit">Show my leads</button>
+        <p class="err" id="err" role="alert"></p>
+      </form>
+      <div id="list" hidden>
+        <p class="kicker" id="count"></p>
+        <div class="scroll"><table id="leads"><thead><tr><th>When</th><th>Name</th><th>Email</th><th>Score</th><th>Tier</th><th>Consent</th><th>Email sent</th></tr></thead><tbody></tbody></table></div>
+        <p><button class="back" type="button" id="more">Older leads</button></p>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

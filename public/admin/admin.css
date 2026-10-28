@@ -1,0 +1,6 @@
+.wide { max-width: 980px; }
+.note { font: 13px/1.5 var(--mono), ui-monospace, monospace; margin: 4px 0 0; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font: 14px/1.4 var(--mono), ui-monospace, monospace; }
+th { text-align: left; font: 11px/1.4 var(--pixel), monospace; letter-spacing: 1px; color: var(--wine); padding: 8px 10px 8px 0; border-bottom: 2px solid var(--ink); }
+td { padding: 8px 10px 8px 0; border-bottom: 1px dashed var(--wine); white-space: nowrap; }
